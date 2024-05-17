@@ -105,7 +105,7 @@ namespace Summative_Animation
                     _screen = Screen.MainScreen;
                 }
             }
-            else if (_screen == Screen.MainScreen)
+            else if (_screen == Screen.MainScreen) 
             {
                 timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
                 if (timer >= 0.5)
@@ -181,7 +181,7 @@ namespace Summative_Animation
             {
                 _spriteBatch.Draw(magpieIntro, magpieLocation, Color.White);
             }
-            
+
             _spriteBatch.End();
 
             base.Draw(gameTime);
